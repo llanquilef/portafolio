@@ -2,7 +2,7 @@ from tkinter import TRUE
 from django.db import models
 
 
-class MultimediaFavorita(models.Model):
+class RecomendacionPersonal(models.Model):
     nombre = models.CharField(max_length=150)
     autor = models.CharField(max_length=150)
     comentario = models.TextField(max_length=600)
